@@ -1,1 +1,19 @@
-<h1>TEST VIEW</h1>
+<div class="container-fluid">
+    <div class="row mb-4">
+        <div class="col-sm-4" *ngFor="let animal of myAnimals">
+            <div class="card mb-4">
+                <img class="card-img-top" src="./../../assets/old-macdonald.jpg" alt="Card animal image">
+                <h5 class="card-header">{{animal?.name | uppercase }}</h5>
+                <div class="card-body">
+                    <p class="card-text">
+                        Old MacDonald had a farm, E I E I O, <br>
+                        And on his farm he had a {{animal?.name}}, E I E I O. <br>
+                        With a {{animal?.sound}} {{animal?.sound}} here and a {{animal?.sound}} {{animal?.sound}} there, <br>
+                        Here a {{animal?.sound}}, there a {{animal?.sound}}, ev’rywhere a {{animal?.sound}}{{animal?.sound}}.<br>
+                        Old MacDonald had a farm, E I E I O.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

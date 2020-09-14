@@ -1,0 +1,18 @@
+div.card {
+    width: 20rem;
+    border-radius: 1rem;
+    box-shadow: 0 0.2rem 0.4rem 0 rgba(0, 0, 0, 0.5);
+    border: none;
+}
+
+p.card-text {
+    font-size: 0.70rem;
+}
+
+img.card-img-top {
+    border-radius: 1rem 1rem 0 0;
+}
+
+div.old-macdonald-header {
+    padding-bottom: 1rem;
+}
