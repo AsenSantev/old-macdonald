@@ -1,21 +1,16 @@
-<div class="container">
-  <div class="row">
-    <div class="col">
-      1 of 2 BOOTSTRAP TEST
-    </div>
-    <div class="col">
-      2 of 2 BOOTSTRAP TEST
-    </div>
-  </div>
-  <div class="row">
-    <div class="col">
-      1 of 3 BOOTSTRAP TEST
-    </div>
-    <div class="col">
-      2 of 3 BOOTSTRAP TEST
-    </div>
-    <div class="col">
-      3 of 3 BOOTSTRAP TEST
-    </div>
-  </div>
+<!--Header-->
+<div class="container bg-light old-macdonald-header">
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <span class="navbar-brand">THE OLD MACDONALD APP</span>
+        <div class="collapse navbar-collapse">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link" routerLink="view">View all animals</a>
+                <a class="nav-item nav-link" routerLink="create">Create an animal</a>
+            </div>
+        </div>
+    </nav>
+</div>
+<!--Content-->
+<div class="container bg-light">
+    <router-outlet></router-outlet>
 </div>
