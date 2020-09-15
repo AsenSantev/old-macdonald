@@ -6,10 +6,11 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 https://docs.google.com/document/d/1Fhj0msP2sjV75CWnzHrb4S6BNm-sog2iUzOM2DaGC58/edit?usp=sharing
 
 ## How to locally run the app:
-1. Install all dependencies: `npm install`.
-2. Run app with `ng serve`.
-3. In your browser navigate to `http://localhost:4200/`.
-4. Enjoy!
+1. Make sure you have installed npm v.12.x.
+2. Install all dependencies: `npm install`.
+3. Run app with `ng serve`.
+4. In your browser navigate to `http://localhost:4200/`.
+5. Enjoy!
 
 ## How to use the app
 1. Your default view is the animal cards.
